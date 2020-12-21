@@ -1,6 +1,9 @@
 # py-rbac
 Python implementation of the NIST model for role based access control (RBAC).
 
+![PyPI](https://img.shields.io/pypi/v/py-rbac)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/py-rbac)
+
 [The NIST model][95961bd8] proposes four level of role based access control implementation:
 1. **Flat**
 - users acquire permissions through roles
@@ -205,6 +208,10 @@ assert rbac.go(1, some_article, delete) is None
 This library uses calendar versioning.
 
   [95961bd8]: https://csrc.nist.gov/CSRC/media/Publications/conference-paper/2000/07/26/the-nist-model-for-role-based-access-control-towards-a-unified-/documents/sandhu-ferraiolo-kuhn-00.pdf "The NIST model for role based access control"
+
+Thanks for watching 🐬
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/F1F1RFO7)
 
 ## Contribution
 This project uses pipenv to manage its dependencies. The only dependency it has
